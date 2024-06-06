@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(./3e97fe0b-a782-4a43-a71e-9e28a17d98ef.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.navbar {
+    width: 92%;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between; font-size: 10px;
+}
+
+ul {
+    /* Remove negative margin */
+    margin-left: auto;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(236, 234, 217);
+    margin-top: 4%; 
+}
+
+ul li a:hover {
+    color: rgb(247, 233, 228);
+}
+
+.info {
+    margin-left: 20px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(232, 241, 232); justify-content: center;
+}
+
+.info p {
+    font-size: 20px; /* Adjust as needed */
+    letter-spacing: 1px;
+    line-height: 24px; justify-content: center;
+}
+h1{color:rgb(246, 248, 243);}/* Add this CSS to your existing stylesheet */
+.welcome-message {
+    text-align: center;
+    color: #fff; /* Adjust the text color as needed */
+    padding: 20px;
+}
+
+.welcome-message h2 {
+    font-size: 36px; /* Adjust the font size as needed */text-align: center; color: gold; padding:20px;
+}.welcome-message ul {
+    font-size: 36px; /* Adjust the font size as needed */text-align: center; color: gold; padding:10px;
+
+    border-radius: 3px;
+    margin: 5px 0;
+}
+.welcome-message h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+}
+.info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(235, 228, 213);
+}
+
+.info p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}

@@ -1,0 +1,55 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<h1>contact us form </h1>
+</head>
+
+
+
+
+<body>
+
+<fieldset  >
+<form>
+
+<legend> 
+ Contact us form
+</legend>
+
+   <br>
+    <label>
+     First name:
+     <input type ="First name"name="name"><br>
+     </label>
+     <br>
+     <label>
+        First name:
+     <input type ="Last name"name="name"><br>
+     </label>
+
+       <br>
+
+      
+      <label>
+        Email     :
+        </label>
+     <input type ="email"name="email" style="margin-right: 10px; margin-bottom: 10px; " ><br>
+     
+        <br>
+          
+          <label for="myTextArea">Message:</label><br>
+        <textarea id="myTextArea" name="myTextArea" rows="4" cols="50"></textarea><br><br>
+
+
+     <input type="submit" name="">
+       
+
+
+
+
+
+     </form>
+     </body>
+     </html>
